@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Renting System</title>
+    <link rel="stylesheet" href="/static/mdui-v1.0.1/css/mdui.min.css">
+    <script src="/static/mdui-v1.0.1/js/mdui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.3.1/dist/echarts.js"></script>
+</head>
+<body class="mdui-theme-layout-auto">
+    <div class="mdui-container">
+        {% include 'mudi_nav.html' %}
+        {% block content %}
+
+        {% endblock %}
+    </div>
+</body>
+</html>
+
